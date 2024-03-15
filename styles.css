@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+}
+
+.heading {
+
+    color: #fff;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0.1em solid #fff;
+
+    border-radius: 1em;
+}
+
+.container {
+    background-color: #213858;
+    color: #fff;
+    height: 32em;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+
+}
+
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+
+}
+
+.add-product-button,
+.reset-button {
+    background-color: #008CBA;
+    padding: 1em 5em;
+    border-radius: 1em;
+}
+
+
+.button-align-add,
+.button-align-reset {
+    display: flex;
+    justify-content: center;
+
+}
+
+button:hover {
+    border: 1px solid #fff;
+
+}
+
+.add-product-button {
+    margin-top: 1em;
+}
+
+#reset_button {
+    margin: 1em;
+}
+
+.total-budget {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.number-of-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin: 1em;
+
+}
+
+.form-control {
+    border-radius: 0.5em;
+    border: 1px solid #aaa;
+    background-color: transparent;
+    padding: 10px;
+    color: #eee;
+
+}
+
+
+
+.product_table_and_result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+
+}
+
+.upper_tacker {
+    display: flex;
+    justify-content: space-around;
+}
+
+.budget_tacker_info {
+    text-align: center;
+}
+
+
+
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.expense-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.expense-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.expense-table tbody tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+.expense-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+
+.budget_tacker_info {
+    background-color: #213858;
+    color: #fff;
+    height: 7em;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;
+    padding: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0.1em solid #fff;
+    border-radius: 1em;
+
+}
+
+.budget_tacker_info>div {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+
+    border-bottom: 2px solid #ff0000;
+}
+
+.budget_tacker_info>div:nth-child(2) {
+    border-color: #ff5300;
+}
+
+.budget_tacker_info>div:last-child {
+    border-color: #00ff00;
+}
+
+.budget_tacker_info>div h1 {
+    margin-block: 20px;
+    word-break: break-all;
+    font-size: 30px;
+}
